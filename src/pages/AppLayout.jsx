@@ -1,9 +1,9 @@
-import AppNav from "../components/AppNav";
+import PageNav from "../components/PageNav";
 
 function AppLayout() {
   return (
     <div>
-      <AppNav />
+      <PageNav />
       <h1>App</h1>
     </div>
   );
