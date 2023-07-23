@@ -133,9 +133,7 @@ function Form() {
       </div>
 
       <div className={styles.buttons}>
-        <Button type="primary" onClick>
-          Add
-        </Button>
+        <Button type="primary">Add</Button>
         {/* navigate back one */}
         <BackButton />
       </div>
