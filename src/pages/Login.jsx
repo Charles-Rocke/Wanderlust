@@ -20,8 +20,9 @@ export default function Login() {
   }
 
   useEffect(
+    // replace login page in the history stack (allows you to go back to home page)
     function () {
-      if (isAuthenticated) navigate("/app");
+      if (isAuthenticated) navigate("/app", { replace: true });
     },
     [isAuthenticated, navigate]
   );
